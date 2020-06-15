@@ -45,9 +45,7 @@ const DishDetail = ({dish}) => {
     const {comments} = dish
     return (
         <div className="row">
-       
-        {renderDish(dish)}
-       
+        {renderDish(dish)}      
         {renderComments(comments)}
         </div>
 )
